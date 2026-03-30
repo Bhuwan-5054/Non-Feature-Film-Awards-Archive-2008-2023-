@@ -407,7 +407,7 @@ function showYear(year) {
       <button onclick="toggleSynopsis(this)">Read Synopsis</button>
       <p class="hidden">${item.synopsis}</p>
 
-      <a href="awards.pdf#page=${item.page}" target="_blank">
+      <a href="https://www.dropbox.com/s/zvk8u52otwu33fiqe8wq2/awards.pdf?raw=1#page=${item.page}" target="_blank">
         <button class="link-btn">📄 Open Official Page</button>
       </a>
     `;
