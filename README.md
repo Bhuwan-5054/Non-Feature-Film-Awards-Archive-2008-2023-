@@ -49,13 +49,13 @@ project/
 1. Clone the repository:
 
    ```bash
-   git clone https://github.com/your-username/your-repo-name.git
+   git clone [https://github.com/Bhuwan-5054/Non-Feature-Film-Awards-Archive-2008-2023-]
    ```
 
 2. Open the project folder:
 
    ```bash
-   cd your-repo-name
+   cd Non-Feature-Film-Awards-Archive-2008-2023-
    ```
 
 3. Run the project:
@@ -124,7 +124,7 @@ This project is for educational and informational purposes.
 
 **Your Name**
 
-* GitHub: https://github.com/your-username
+* GitHub: https://github.com/Bhuwan_5054
 
 ---
 
