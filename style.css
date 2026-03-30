@@ -1,0 +1,111 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Segoe UI', sans-serif;
+}
+
+body {
+  background: linear-gradient(135deg, #020617, #0f172a);
+  color: #e2e8f0;
+}
+
+/* HEADER */
+header {
+  text-align: center;
+  padding: 30px 20px;
+  backdrop-filter: blur(10px);
+}
+
+header h1 {
+  font-size: 50px;
+}
+
+.subtitle {
+  opacity: 0.7;
+  margin-bottom: 25px;
+}
+
+input {
+  padding: 15px;
+  width: 300px;
+  border-radius: 8px;
+  border: none;
+  outline: none;
+}
+
+/* YEARS GRID */
+.years {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(110px, 1fr));
+  gap: 15px;
+  padding: 20px;
+}
+
+.card {
+  background: rgba(30, 41, 59, 0.6);
+  backdrop-filter: blur(10px);
+  padding: 20px;
+  text-align: center;
+  border-radius: 12px;
+  cursor: pointer;
+  transition: 0.3s;
+}
+
+.card:hover {
+  transform: translateY(-5px) scale(1.05);
+  background: rgba(59, 130, 246, 0.3);
+}
+
+/* CONTENT */
+.content {
+  padding: 20px;
+  display: none;
+}
+
+.item {
+  background: rgba(30, 41, 59, 0.6);
+  padding: 15px;
+  border-radius: 12px;
+  margin-bottom: 15px;
+  transition: 0.3s;
+}
+
+.item:hover {
+  transform: scale(1.02);
+}
+
+/* BUTTONS */
+button {
+  margin-top: 8px;
+  padding: 7px 14px;
+  border: none;
+  border-radius: 6px;
+  cursor: pointer;
+}
+
+button:first-of-type {
+  background: #3b82f6;
+  color: white;
+}
+
+.link-btn {
+  background: linear-gradient(45deg, #10b981, #22c55e);
+  color: black;
+  font-weight: bold;
+}
+
+.link-btn:hover {
+  transform: scale(1.05);
+}
+
+.hidden {
+  display: none;
+}
+
+/* MOBILE */
+@media(max-width:600px) {
+  input {
+    width: 90%;
+  }
+}
