@@ -402,6 +402,7 @@ function showYear(year) {
 
     div.innerHTML = `
       <h3>${item.category}</h3>
+        <p><b>Winner:</b> ${item.winner}</p>
       <button class="link-btn" onclick="window.open('${item.file}', '_blank')">
       View Details
       </button>
